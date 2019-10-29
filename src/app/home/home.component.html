@@ -1,0 +1,91 @@
+
+
+  <div class="myCarousel">
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <div class="image">
+            <h1 class="certificate">Certificate Course</h1>
+            <h5 class="and">&</h5>
+            <h2 class="advance" style="color: brown">Advanced Course</h2>
+            <button type="button" class="btn btn-secondary btn-lg" routerLink="/digital-production">LEARN MORE</button>
+        </div>
+
+      </div>
+
+       <div class="mySlides">
+         <div class="second-image">
+           <h1>REGISTER NOW FOR DECEMBER 2019</h1>
+           <h1 style="color: blue;">Register Now</h1>
+           <p class="paragraph">Our Mission is to equip our students with the capacity to prosper, compete and succeed as engineers and
+             producers in</p>
+             <p class="paragraph">the music industry by empowering them with the best knowledge and skills possible in
+               Music
+             Production and Sound Engineering. </p>
+             <button type="button" class="btn btn-secondary btn-lg" routerLink="/register">LEARN MORE</button>
+         </div>
+
+       </div>
+
+        <div class="mySlides">
+          <div class="third-image">
+              <h1>DIGITAL SOUND ENGINEERING</h1>
+              <h1 style="color: brown;">GO ADVANCED BY REGISTERING FOR THIS COURSE</h1>
+
+              <button type="button" class="btn btn-secondary btn-lg" routerLink="/register">LEARN MORE</button>
+          </div>
+
+        </div>
+
+    </div>
+
+       <div class="dots-container">
+         <span class="dot"></span>
+         <span class="dot"></span>
+         <span class="dot"></span>
+       </div>
+
+  </div>
+
+<div class="container-fluid">
+    <h1 class="heading">
+      Featured Courses
+    </h1>
+    <h2 class="head">our most requested courses</h2>
+  <div class="row">
+    <div class="col-sm">
+      <div class="img-music">
+        <img src="/assets/img/digitalmusic.jpg" alt="digital music production">
+      </div>
+      <button mat-button [routerLink]="['/digital-production']" routerLinkActive="mat-accent"><span>Digital Music
+          Production </span></button>
+      <p>This 12 week course is intensive practically and theoretically to prepare students
+        to become working success stories in the commercial sound industry. Students taking
+        this course have the opportunity to learn both the
+        technical and creative components of Music Production.</p>
+
+
+      <div class="label">
+        <button mat-button [routerLink]="['/digital-production']" routerLinkActive="mat-accent"><label> Learn
+            More...</label></button>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="img-music">
+        <img src="/assets/img/digitalsound.jpg" alt="digital sound engineering">
+      </div>
+      <button mat-button [routerLink]="['/digital-sound']" routerLinkActive="mat-accent"><span>Digital Sound Engineering
+        </span></button>
+      <p>This 12 week course is intensive practically and theoretically to prepare students to
+        become working success stories in the commercial sound industry. Students taking this
+        course have the opportunity to learn both the
+        technical and creative components of audio recording.</p>
+
+
+      <div class="label">
+        <button mat-button [routerLink]="['/digital-sound']" routerLinkActive="mat-accent"><label> Learn
+            More...</label></button>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,114 @@
+
+img {
+  max-width: 100%;
+}
+
+
+.logo {
+    background-image: url('/assets/img/logo1.png');
+
+      margin-left: 10%;
+ 
+      min-height: 150px;
+    
+      background-repeat: no-repeat;
+      background-size: 20%;
+
+}
+
+
+.navbar-brand {
+    margin-left: 12%;
+}
+
+span {
+    font-size: 0.5em;
+}
+
+nav {
+    background-color: dimgray;
+    padding-right: 10%;
+}
+
+.envelope {
+    margin-left: 10%;
+}
+.info {
+    font-size: 1em;
+    margin-left: 5%;
+    color: brown;
+}
+.facebook {
+    margin-left: 47%;
+
+}
+.twitter {
+    margin-right: 10%;
+}
+
+.card {
+    width: 60%;
+    margin: auto;
+    background-color: brown;
+}
+
+a {
+  color: black;
+
+}
+
+#color {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style: bold;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  max-width: 100%;
+  height: 7%;
+   /* position: sticky; */
+   /* top: 0; */
+   z-index: 10;
+}
+
+#navbar button {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 10px 12px; */
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#navbar button.active {
+  background-color: chocolate;
+  color: white;
+}
+
+#navbar button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+

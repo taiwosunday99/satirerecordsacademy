@@ -1,0 +1,49 @@
+.container-fluid {
+  background-image: url('/assets/img/digitalsound.jpg');
+
+  
+  min-height: 350px;
+  
+  opacity: 0.5;
+  
+}
+
+img {
+border-radius: 70%;
+}
+
+h2 {
+    text-align: center;
+    font-family: arial black;
+    font-size: 2em;
+}
+
+p {
+  font-family: arial black;
+
+}
+
+
+#member-details {
+  background-color: aliceblue;
+  padding: 0%;
+}
+
+span {
+  font-family: Georgia;
+  font-size: 1em;
+  padding-right: 20em;
+}
+
+label {
+  font-family: Georgia;
+  font-size: 1.2em;
+}
+
+/* .card-footer {
+  background-color: black;
+} */
+
+.card-header {
+  background-color: black;
+}

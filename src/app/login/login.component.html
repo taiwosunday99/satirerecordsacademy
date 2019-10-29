@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    
+<h1>Welcome to Login Page</h1>
+<span class="image"><img src="/assets/img/login5.png" alt="login logo" width="150"></span>
+
+</div>
+
+<div class="card">
+    <img id="lock" src="/assets/img/lock.png" alt="login-image" width="200">
+
+
+    <span *ngIf="error">{{ error }}</span>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block" (click)="loginFb()"><img src="/assets/img/face3.png" alt="facebook icon"
+            width="30"><span>Login With Facebook</span> 
+        </button>
+
+        <button type="button" class="btn btn-outline-primary btn-lg btn-block" (click)="loginGoogle()"><img src="/assets/img/google.jpg"
+            alt="google icon"
+            width="30"><span>Login With Google</span> 
+        </button>
+
+           <button type="button" class="btn btn-secondary btn-lg btn-block" routerLink="/login-email"><img src="/assets/img/envelope.png"
+               alt="google icon" width="30" id="envelope"><span>Login With Email</span>
+             </button>
+
+         <h2>No account? <a routerLink="/signup">Create one here</a></h2>
+</div>

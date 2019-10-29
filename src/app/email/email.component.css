@@ -1,0 +1,52 @@
+.container-fluid {
+  background-image: url('/assets/img/background.jpg');
+
+  /* margin-left: 10%; */
+
+  min-height: 450px;
+  opacity: 0.7;
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+  /* padding: 5%; */
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
+  background-color: lightgrey;
+  margin-top: 2%;
+}
+
+#goback {
+  text-align: center;
+  font-size: 1em;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+#create {
+  margin-left: 40%;
+}
+
+label {
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 3em;
+    padding-top: 10%;
+    font-family: arial black;
+}
+
+img {
+    margin-left: 40%;
+}

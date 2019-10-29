@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 5em;
+    color:brown;
+    padding: 2%;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    background-color: aliceblue;
+    margin-top: 2%;
+
+}
+
+.container-fluid {
+    background-image: url('/assets/img/loginimg.jpg');
+
+    /* margin-left: 10%; */
+
+    min-height: 350px;
+    opacity: 0.8;
+}
+
+#lock {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+    color: navy;
+    margin-top: 3%;
+}
+
+button {
+    margin-top: 4px;
+}
+
+img {
+    max-width: 100%;
+    /* margin-right: 30em; */
+}
+
+span {
+    margin-left: 10%;;
+}
+
+.image {
+    margin-left: 40%;
+    /* margin: 5%; */
+}
+

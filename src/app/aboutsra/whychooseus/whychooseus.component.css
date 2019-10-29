@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+
+    background-image: url('/assets/img/digitalsound.jpg');
+
+    min-height: 350px;
+    opacity: 0.8;
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 72px;
+  color: peru;
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  -webkit-column-count: 1;
+  padding: 1.875em 6.25em 9.375em 6.25em;
+}
+
+h3 {
+  font-family: 'poppins', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: peru;
+}
+
+h4 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5em;
+  color: #706d6d;
+}
+
+p {
+  font-display: 1em;
+  font-family: 'poppins', sans-serif;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 1.25em 6.25em 1.25em 6.25em;
+  background-color: darksalmon;
+  -webkit-column-count: 1;
+}
+
+.main-text {
+  text-align: left;
+}
+
+.main-field {
+  text-align: left;
+}
+
+a {
+  float: right;
+  width: 150px;
+  height: auto;
+  font-size: 1em;
+  font-family: 'poppins', sans-serif;
+  color: white;
+  background: peru;
+  border: 2px solid peru;
+  border-radius: 2px;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background: palevioletred;
+  opacity: 0.9;
+  -webkit-column-count: 1;
+}

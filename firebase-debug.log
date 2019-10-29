@@ -1,0 +1,38 @@
+[debug] [2019-10-29T16:31:39.981Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T16:31:39.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\victo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-29T16:31:39.983Z] CLI Version:   7.6.1
+[debug] [2019-10-29T16:31:39.983Z] Platform:      win32
+[debug] [2019-10-29T16:31:39.983Z] Node Version:  v10.16.3
+[debug] [2019-10-29T16:31:39.984Z] Time:          Tue Oct 29 2019 17:31:39 GMT+0100 (West Africa Standard Time)
+[debug] [2019-10-29T16:31:39.984Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T16:31:39.984Z] 
+[debug] [2019-10-29T16:31:39.993Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-29T16:31:39.994Z] > authorizing via signed-in user
+[debug] [2019-10-29T16:31:39.994Z] [iam] checking project satirerecordsacademy100 for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2019-10-29T16:31:39.995Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/satirerecordsacademy100:testIamPermissions  
+
+[debug] [2019-10-29T16:32:01.503Z] Error: connect ETIMEDOUT 216.58.223.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.202:443
+[debug] [2019-10-29T16:52:43.922Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T16:52:43.924Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\victo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-10-29T16:52:43.925Z] CLI Version:   7.6.1
+[debug] [2019-10-29T16:52:43.925Z] Platform:      win32
+[debug] [2019-10-29T16:52:43.925Z] Node Version:  v10.16.3
+[debug] [2019-10-29T16:52:43.926Z] Time:          Tue Oct 29 2019 17:52:43 GMT+0100 (West Africa Standard Time)
+[debug] [2019-10-29T16:52:43.926Z] ----------------------------------------------------------------------
+[debug] [2019-10-29T16:52:43.926Z] 
+[debug] [2019-10-29T16:52:43.934Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-29T16:52:43.935Z] > authorizing via signed-in user
+[debug] [2019-10-29T16:52:43.935Z] [iam] checking project satirerecordsacademy100 for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2019-10-29T16:52:43.937Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-29T16:52:43.937Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-29T16:52:44.978Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-29T16:52:45.143Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/satirerecordsacademy100:testIamPermissions  
+
+[debug] [2019-10-29T16:53:06.810Z] Error: connect ETIMEDOUT 216.58.223.202:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.223.202:443

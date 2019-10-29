@@ -1,0 +1,71 @@
+<div class="header" id="nav-bar">
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand"><img src="/assets/img/phone.jpg" alt="phone" width="20"><span>+234 7018 964419</span>
+  <span class="envelope"><img src="/assets/img/envelope.png" alt="envelope" width="15"><span class="info">satirerecordsacademy@gmail.com</span></span></a>
+   <a class="facebook" href="https://www.facebook.com/satiremusicrecords/?ref=bookmarks "><img
+       src="/assets/img/facebook1.png" alt="facebook" width="20"></a>
+    <a class="twitter" href="https://twitter.com/AcademySatire"><img src="/assets/img/twitter.png" alt="twitter"
+        width="15"></a>
+        <div class="instagram">
+          <a class="twitter" href="https://www.instagram.com/satirerecordsacademy/"><img src="/assets/img/instagram.png"
+              alt="instagram"
+              width="15"></a>
+        </div>
+</nav>
+<div class="logo"></div>
+</div>
+
+  <div class="card" id="navbar">
+    <div class="card-body">
+      <button class="active" mat-button [routerLink]="['/']" routerLinkActive="mat-primary">HOME</button>
+      <button mat-button [matMenuTriggerFor]="courses" id="color">COURSES
+        <img src="/assets/img/arr.png" alt="drop down arrow" width="15">
+      </button>
+      <button mat-button [matMenuTriggerFor]="admissions" id="color">ADMISSIONS
+        <img src="/assets/img/arr.png" alt="drop down arrow" width="15">
+      </button>
+      <button mat-button [matMenuTriggerFor]="about"  id="color">ABOUT SRA
+        <img src="/assets/img/arr.png" alt="drop down arrow" width="15">
+      </button>
+      <button mat-button id="color" [matMenuTriggerFor]="student">STUDENTS
+        PORTAL <img src="/assets/img/arr.png" alt="drop down arrow" width="15"></button>
+      <button mat-button id="color" [routerLink]="['/contact-us']" routerLinkActive="mat-primary">CONTACT US</button>
+
+      <mat-menu #courses="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="certificate"
+          routerLinkActive="mat-primary">Certificate Course</button>
+        <button mat-menu-item [matMenuTriggerFor]="advanced" routerLinkActive="mat-primary">Advanced Course</button>
+      </mat-menu>
+
+      <mat-menu #certificate="matMenu">
+        <button mat-menu-item [routerLink]="['/digital-production']"
+          routerLinkActive="mat-primary">Music Production</button>
+      </mat-menu>
+
+      <mat-menu #advanced="matMenu">
+        <button mat-menu-item [routerLink]="['/digital-sound']" routerLinkActive="mat-primary">Digital Sound Engineering</button>
+      </mat-menu>
+
+        <mat-menu #admissions="matMenu">
+          <button mat-menu-item [routerLink]="['/admission']" routerLinkActive="mat-primary">Admission Requirements</button>
+          <button mat-menu-item [routerLink]="['/register']" routerLinkActive="mat-primary">Register Now!</button>
+          <button mat-menu-item [routerLink]="['/faqs']" routerLinkActive="mat-primary">FAQs</button>
+        </mat-menu>
+        <mat-menu #about="matMenu">
+          <button mat-menu-item [routerLink]="['/about-us']" routerLinkActive="mat-primary">About Us</button>
+          <button mat-menu-item [routerLink]="['/why-choose-us']" routerLinkActive="mat-primary">Why Choose Us</button>
+          <button mat-menu-item [routerLink]="['/our-facilities']" routerLinkActive="mat-primary">Our Facilities</button>
+        </mat-menu>
+
+            <mat-menu #student="matMenu">
+              <button mat-menu-item [routerLink]="['/login']" routerLinkActive="mat-primary">Login</button>
+            </mat-menu>
+  
+     
+    </div>
+  </div>
+
+
+
+
+

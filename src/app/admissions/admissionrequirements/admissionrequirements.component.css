@@ -1,0 +1,52 @@
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 5%;
+  padding-left: 10%;
+
+}
+
+span {
+  color: red;
+}
+
+h1 {
+  color: red;
+  font-size: 2em;
+  font-family: Arial Black;
+}
+
+p {
+  margin-top: 6%;
+}
+
+ol {
+    font-family: Georgia;
+}
+
+li {
+    margin: 2%;
+}
+
+hr {
+  border: 1%;
+  border: solid;
+  color: red;
+}
+
+.img-stu {
+    margin: 2%;
+}
+
+#reg {
+    background-image: url("/assets/img/studentspic.jpg");
+
+     min-height: 250px;
+}
+
+button {
+  margin: 10%;
+}

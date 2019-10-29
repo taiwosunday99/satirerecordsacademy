@@ -1,0 +1,133 @@
+
+img {
+  max-width: 100%;
+}
+
+.myCarousel {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.advance {
+  font-size: 3em;
+  color: aliceblue;
+}
+
+h5 {
+  font-size: 5em;
+}
+
+.paragraph {
+  color: aliceblue;
+  font-size: 0.5em;
+}
+
+
+.image {
+
+background-image: url('/assets/img/digitalsound.jpg');
+  
+font-size: 1.5em;
+min-height: 550px;
+width: 100%;
+}
+
+.second-image {
+
+  background-image: url('/assets/img/digitalmastering.jpg');
+
+  min-height: 550px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.third-image {
+
+  background-image: url('/assets/img/digital1.jpeg');
+
+  min-height: 550px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+
+
+@media only screen and (max-width: 300px) {
+  .certificate {font-size: 11px}
+}
+
+.slidershow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+
+h1 {
+  padding: 2%;
+  color:aliceblue;
+  font-family: Impact;
+  font-style: bold;
+  font-size: 3em;
+}
+
+
+.heading {
+  font-size: 3em;
+  color: darkslategray;
+  margin-top: 3%;
+}
+
+.head {
+  font-size: 1.5em;
+  margin-bottom: 2%;
+}
+
+span {
+  font-size: 1.5em;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-fluid {
+  margin: 2%;
+}
+
+a {
+  margin-top: 1.5%
+}
+
+label {
+  color: red;
+}
+
+.courses {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.header {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dots-congtainer {
+  text-align: center;
+  margin-top: 30px;
+}
+

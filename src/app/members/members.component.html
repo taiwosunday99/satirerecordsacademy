@@ -1,0 +1,45 @@
+<div class="container-fluid">
+
+</div>
+<div class="card text-center" *ngIf="user">
+  <div class="card-header">
+    <h2 style="color: aliceblue;"> Welcome {{ user.displayName | titlecase }} To Your Profile Details</h2>
+  </div>
+  <div class="row">
+  <div class="card" style="width: 22rem; background-color: lightgray;">
+            <div class="card-body">
+              <span><img src="{{ user.photoURL }}" alt="profile image" width="150" height="100"></span>
+              <p class="card-title">Email:</p> <label>{{ user.email }}</label>
+              <p class="card-text">Email Verified:</p> <label>{{ user.emailVerified }}</label>
+              <p class="card-text">Phone No.:</p> <label>{{ user.phoneNumber }}</label>
+              <p class="card-text">Sign-in Provider:</p> <label>{{ provider | titlecase }}</label>
+               <!-- <div class="logout">
+                 <button type="button" class="btn btn-success" (click)="logOut()">Logout</button>
+               </div> -->
+            </div>
+            <button type="button" class="btn btn-success" (click)="logOut()">Logout</button>
+    </div>
+    <div class="card-body" id="member-details">
+      <h2>Registration Profiling Details</h2>
+      <div class="gender">
+        <span>Gender: <p>{{ member.gender | titlecase }}</p></span>
+      </div>
+      <div class="session">
+        <span>Session:<p>{{ member.session | titlecase }}</p></span>
+      </div>
+      <div class="courses">
+        <span>Offered Course: <p>{{ member.courses | titlecase }}</p></span>
+      </div>
+      <div class="regDate">
+        <span>Registration Date: <p>{{ member.registerDate | date: 'medium' }}</p></span>
+      </div>
+      <div class="state">
+        <span>State of Residence: <p>{{ member.state | titlecase }}</p></span>
+      </div>
+    
+
+    </div>
+
+      </div>
+
+</div>

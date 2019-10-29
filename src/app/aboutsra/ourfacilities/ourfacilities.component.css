@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+    background-image: url('/assets/img/sound2.jpg');
+
+      min-height: 350px;
+
+      opacity: 0.8;
+  /* width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0em 0em 18.75em 0em; */
+}
+
+h1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 4.5em;
+  color: peru;
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+
+div {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 0.625em 0em 0em 0em;
+  overflow: hidden;
+  background: peru;
+}
+
+.media {
+  background: #ffffff;
+  padding: 0em 3.125em 5em 4.375em;
+  font-family: 'poppins', sans-serif;
+}
+
+.production-studio {
+  background: #eec6c6;
+  padding: 0em 3.125em 6em 4.375em;
+}
+
+h3 {
+  font-size: 2.625em;
+  color: peru;
+  font-family: 'poppins', sans-serif;
+  text-align: left;
+  padding: 1em 0em 0.25em 0em;
+}
+
+p {
+  font-size: 1em;
+  font-family: 'poppins', sans-serif;
+  padding: 0em 0em 1.25em 0em;
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background: palevioletred;
+  opacity: 0.9;
+  -webkit-column-count: 1;
+}
+
+img:hover {
+  width: 400px;
+  height: 300px;
+  opacity: 0px;
+  background: peru;
+  overflow: hidden;
+}
+
+.image {
+    margin-top: 5%;
+}

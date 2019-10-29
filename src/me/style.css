@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: 'poppins', sans-serif;
+  font-size: 22px;
+  border-color: white;
+  margin: 10px 10px 0px 10px;
+}
+
+th {
+  background: black;
+  text-transform: uppercase;
+  color: peru;
+}
+
+td {
+  text-align: center;
+  font-weight: 500;
+  padding: 0px 10px 0px 10px;
+  background: white;
+  color: peru;
+  -webkit-transform-origin-x: 45deg;
+}
+
+tr {
+  padding: 40px 0px 40px 0px;
+}
+
+.time {
+  background: yellow;
+}

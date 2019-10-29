@@ -1,0 +1,70 @@
+
+img {
+    max-width: 100%;
+}
+
+.bgimage {
+  background-image: url("/assets/img/register3.jpg");
+
+  width: auto;
+  min-height: 350px;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font-family: Impact;
+  font-style: bold;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+  color: darkgray;
+  font-family: Georgia;
+  font-size: 0.8em;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.text {
+    font-size: 1.2em;
+    color:black;
+    font-style: italic;
+}
+
+mat-card {
+    background-color: lightblue;
+}
+
+button {
+    margin-left: 40%;
+    font-style: italic;
+}
+
+label {
+    color: red;
+    font-family: Georgia;
+    
+}
+
+.admission {
+    color: black;
+    font-size: 1.8em;
+    margin-top: 10%;
+}
+
+span {
+    margin: 2%;
+}
+
+.message {
+    background-color: brown;
+}
+
+.msg {
+    font-size: 1.5em;
+    color: aliceblue;
+}

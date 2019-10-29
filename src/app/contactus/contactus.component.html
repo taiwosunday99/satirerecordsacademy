@@ -1,0 +1,67 @@
+<div class="bgimage">
+  <h1 class="head">Get In Touch</h1>
+
+  <h2 class="home">
+    <mat-icon>home</mat-icon>
+    > HOME > CONTACT US
+  </h2>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <h1>Address</h1>
+      <span><img src="/assets/img/map.png" alt="address" width="80"></span>
+      <h2>116b, Adetola Street, Emmanuel bus-stop, Aguda, Surulere,
+        Lagos State, Nigeria</h2>
+    </div>
+    <div class="col">
+      <h1>Email</h1>
+      <span id="info"><img src="/assets/img/email.png" alt="address" width="70"></span>
+      <h2 id="info">satirerecordsacademy@gmail.com</h2>
+    </div>
+    <div class="col">
+      <h1>Telephone</h1>
+      <span id="info"><img src="/assets/img/phone1.png" alt="address" width="80"></span>
+      <h2 id="info">+234 70189 64419</h2>
+    </div>
+  </div>
+</div>
+
+
+<h1 class="contact-us">Contact Us</h1>
+<mat-card *ngIf="message"><p>{{ message }}</p></mat-card>
+<mat-card>
+    <form [formGroup]="contactForm" (submit)="onContact()">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput type="text" formControlName="name" placeholder="Enter Your FullName">
+          <mat-error *ngIf="contactForm.get('name').invalid">
+            Please enter a name
+          </mat-error>
+        </mat-form-field>
+         <mat-form-field>
+           <mat-label>Email</mat-label>
+           <input matInput type="email" formControlName="email" placeholder="Enter Your Email">
+           <mat-error *ngIf="contactForm.get('email').invalid">
+             Please enter an email address
+           </mat-error>
+         </mat-form-field>
+          <mat-form-field>
+            <mat-label>Subject</mat-label>
+            <input matInput type="text" formControlName="subject" placeholder="Enter Message Title">
+            <mat-error *ngIf="contactForm.get('subject').invalid">
+              Please enter the title of your message
+            </mat-error>
+          </mat-form-field>
+            <mat-form-field class="example-full-width">
+               <mat-label>Message</mat-label>
+              <textarea matInput formControlName="message" placeholder="Type your message here..."></textarea>
+              <mat-error *ngIf="contactForm.get('message').invalid">
+                Please enter message
+              </mat-error>
+            </mat-form-field>
+            <button mat-raised-button type="submit" color="warn">Send Message</button>
+    </form>
+</mat-card>
+<br>
